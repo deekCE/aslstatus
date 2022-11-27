@@ -41,8 +41,8 @@ Needs `pkg-config` for `LDLIBS`
 
 You can find out more in [config.mk](config.mk)
 
-### make options
-#### X
+### make options:
+#### X:
 Adds support for `X` (needed for `dwm` `WM_NAME`).
 
 You may want to set it to `0` if you use aslstatus in
@@ -52,7 +52,7 @@ You may want to set it to `0` if you use aslstatus in
 * Ddependencies:
   * `libxcb-dev`
 
-#### XKB
+#### XKB:
 Adds support for keyboard (needed for `keymap` component).
 
 Works only if `X=1`.
@@ -61,7 +61,7 @@ Works only if `X=1`.
 * dependencies:
   * `libxcb-xkb-dev`
 
-#### Audio
+#### Audio:
 Selects the audio library.
 
 * Default: `ALSA`
@@ -73,10 +73,7 @@ Selects the audio library.
   * `libasound-dev` (if `AUDIO=ALSA`)
   * `libpulse-dev` (if `AUDIO=PULSE`)
 
-
----
 ## Config
-
 For more info about components see [wiki](wiki/COMPONENTS.md) and
 [components_config.h](components_config.h)
 
