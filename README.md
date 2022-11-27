@@ -5,17 +5,6 @@ If you found any issues report it at
 For any other question, feel free to ask at
 [#aslstatus:anontier.nl](https://matrix.to/#/#aslstatus:anontier.nl)
 
-## Demo
-![img](https://i.ibb.co/3SRSkTP/lemonbar-with-aslstatus.gif)
-
-<details><summary>dwm</summary>
-![dwm demo](https://i.ibb.co/r5PYRj8/Demo.gif)
-</details>
-
-<details><summary>dvtm</summary>
-[![dvtm asciicast](https://asciinema.org/a/437217.svg)](https://asciinema.org/a/437217)
-</details>
-
 ## Installation
 ### Gentoo
 Available at [dm9pZCAq's overlay](https://notabug.org/dm9pZCAq/dm9pZCAq-overlay):
