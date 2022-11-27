@@ -39,7 +39,7 @@ It succesfully compiles with:
 
 Needs `pkg-config` for `LDLIBS`
 
-You can find out more in [config.mk](config.mk)
+You can find more about it in [config.mk](config.mk)
 
 ### make options:
 #### X:
@@ -73,8 +73,6 @@ Selects the audio library.
   * `libasound-dev` (if `AUDIO=ALSA`)
   * `libpulse-dev` (if `AUDIO=PULSE`)
 
-## Config
-For more info about components see the [Wiki](wiki/COMPONENTS.md) or
+## Configuration
+More information about components in the [Wiki](wiki/COMPONENTS.md) or in
 [components_config.h](components_config.h)
-
-See also [main Wiki page](wiki/).
