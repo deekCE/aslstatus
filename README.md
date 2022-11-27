@@ -61,5 +61,4 @@ Selects the audio library.
   * `libpulse-dev` (if `AUDIO=PULSE`)
 
 ## Configuration
-More information about components in the [Wiki](wiki/COMPONENTS.md) or in
-[components_config.h](components_config.h)
+More information about components in [components_config.h](components_config.h)
