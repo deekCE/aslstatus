@@ -8,6 +8,7 @@ For any other question, feel free to ask at
 ## Installation
 ### Gentoo
 Available at [dm9pZCAq's overlay](https://notabug.org/dm9pZCAq/dm9pZCAq-overlay):
+
 ```sh
 eselect repository enable dm9pZCAq
 emerge --sync dm9pZCAq
@@ -20,6 +21,7 @@ add it here.
 
 ## Compile
 It succesfully compiles with:
+
 * `clang`
 * `tcc`
 * `gcc`
