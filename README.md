@@ -1,11 +1,11 @@
 # aslstatus - asynchronous suckless status
 If you found any issues report it
-[here] (https://notabug.org/dm9pZCAq/aslstatus)
+[here] (https://notabug.org/dm9pZCAq/aslstatus).
 
 For all other questions, feel free to ask in Matrix
-[#aslstatus:anontier.nl](https://matrix.to/#/#aslstatus:anontier.nl)
+[#aslstatus:anontier.nl](https://matrix.to/#/#aslstatus:anontier.nl).
 
-### Demo
+## Demo
 
 <details><summary>bspwm & lemonbar</summary>
 ![bspwm demo](https://i.ibb.co/3SRSkTP/lemonbar-with-aslstatus.gif)
