@@ -7,8 +7,7 @@ For any other question, feel free to ask at
 
 ## Demo
 <details><summary>bspwm & lemonbar</summary>
-[[https://i.ibb.co/3SRSkTP/lemonbar-with-aslstatus.gif|alt=bspwm & lemonbar]]
-![bspwm demo](https://i.ibb.co/3SRSkTP/lemonbar-with-aslstatus.gif)
+![img](https://i.ibb.co/3SRSkTP/lemonbar-with-aslstatus.gif)
 </details>
 
 <details><summary>dwm</summary>
