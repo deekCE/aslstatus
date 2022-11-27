@@ -6,9 +6,7 @@ For any other question, feel free to ask at
 [#aslstatus:anontier.nl](https://matrix.to/#/#aslstatus:anontier.nl)
 
 ## Demo
-<details><summary>bspwm & lemonbar</summary>
 ![img](https://i.ibb.co/3SRSkTP/lemonbar-with-aslstatus.gif)
-</details>
 
 <details><summary>dwm</summary>
 ![dwm demo](https://i.ibb.co/r5PYRj8/Demo.gif)
