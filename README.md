@@ -1,13 +1,11 @@
-# ASLSTATUS
+# aslstatus - asynchronous suckless status
+If you found any issues report it
+[here] (https://notabug.org/dm9pZCAq/aslstatus)
 
----
-if you found any issues report it here
-
-for all other questions, feel free to ask in matrix
+For all other questions, feel free to ask in Matrix
 [#aslstatus:anontier.nl](https://matrix.to/#/#aslstatus:anontier.nl)
 
----
-### demo
+### Demo
 
 <details><summary>bspwm & lemonbar</summary>
 ![bspwm demo](https://i.ibb.co/3SRSkTP/lemonbar-with-aslstatus.gif)
@@ -21,32 +19,28 @@ for all other questions, feel free to ask in matrix
 [![dvtm asciicast](https://asciinema.org/a/437217.svg)](https://asciinema.org/a/437217)
 </details>
 
-
-
----
-# instalation
+# Installation
 ### Gentoo
-avaliable in [my overlay](https://notabug.org/dm9pZCAq/dm9pZCAq-overlay):
+Avaliable in [dm9pZCAq's overlay](https://notabug.org/dm9pZCAq/dm9pZCAq-overlay):
 ```sh
 eselect repository enable dm9pZCAq
 emerge --sync dm9pZCAq
 emerge app-admin/aslstatus::dm9pZCAq
 ```
 
-if you wanna pack `aslstatus` for you distro,
-please do so and submit PR to add it here
+If you wanna pack `aslstatus` for your distro, please do so and submit PR to
+add it here
 
----
-# compile
+# Compile
 
-it is successfully compiling with
+It succesfully compiles with:
 * `clang`
 * `tcc`
 * `gcc`
 
-needs `pkg-config` for `LDLIBS`
+Needs `pkg-config` for `LDLIBS`
 
-you can find out more in [config.mk](config.mk)
+You can find out more in [config.mk](config.mk)
 
 ## make options
 #### X
