@@ -1,9 +1,9 @@
 # aslstatus - asynchronous suckless status
-If you found any issues report it
-[here] (https://notabug.org/dm9pZCAq/aslstatus).
+If you found any issues report it at
+[dm9pzCAq's aslstatus](https://notabug.org/dm9pZCAq/aslstatus).
 
-For all other questions, feel free to ask in Matrix
-[#aslstatus:anontier.nl](https://matrix.to/#/#aslstatus:anontier.nl).
+For all other questions, feel free to ask at Matrix
+[#aslstatus:anontier.nl](https://matrix.to/#/#aslstatus:anontier.nl)
 
 ## Demo
 
@@ -21,7 +21,7 @@ For all other questions, feel free to ask in Matrix
 
 # Installation
 ### Gentoo
-Avaliable in [dm9pZCAq's overlay](https://notabug.org/dm9pZCAq/dm9pZCAq-overlay):
+Avaliable at [dm9pZCAq's overlay](https://notabug.org/dm9pZCAq/dm9pZCAq-overlay):
 ```sh
 eselect repository enable dm9pZCAq
 emerge --sync dm9pZCAq
