@@ -32,19 +32,16 @@ static struct arg_t args[] = {
 #if USE_X
 /* { bspwm_ws,		" [ %s ]%%{r}",	NULL,		0,	END }, */
 #endif
-{ disk_perc,		" [# %s%%",	"/",		25 _SEC,	END },
-{ disk_free,		" %s]",		"/",		25 _SEC,	END },
-{ cpu_perc,		"-[ %3s%%]",	NULL,		 1 _SEC,	END },
-{ load_avg,		"-[%s]",	NULL,		 3 _SEC,	END },
-{ ram_used,		"-[﬙ %s]", 	NULL,		 3 _SEC,	END },
-{ vol_perc,		"-[%s]",	NULL,		 0,		END },
-{ wifi_essid,		"-[直 \"%s\"",	IFC,		 2 _SEC,	END },
-{ wifi_perc,		" %3s%%]",	IFC,		 2 _SEC,	END },
-{ battery_state,	"-[%s",		"BAT0",		 2 _SEC,	END },
-{ battery_perc,		" %3s%%]",	"BAT0",		 1 _MIN,	END },
-{ datetime,		"-[ %s]",	"%H:%M:%S",	 1 _SEC,	END },
+{ run_command,     "%s",        "abatch",                  66,        END },
+{ run_command,     "%s",        "printf ' '",              ONCE,      END },    /* single spacer */
+{ run_command,     "󰕾 %s%%",    "pamixer --get-volume",    66,        END },
+{ run_command,     "%s",        "printf '  '",             ONCE,      END },    /* double spacer */
+{ wifi_perc,       "󰖩 %s%%",	IFC,                       3 _SEC,    END },
+{ run_command,     "%s",        "printf '  '",             ONCE,      END },    /* double spacer */
+{ datetime,        "%s",        "%a., %b. %d, %Y, %T",     333,       END },
+{ run_command,     "%s",        "printf ' '",              ONCE,      END },    /* single spacer */
 #if USE_X && USE_XKB
-{ keymap,		"-[ %s] ",	NULL,		 0,	END },
+/* { keymap,		"-[ %s] ",	NULL,		 0,	END }, */
 #endif
 
 };
