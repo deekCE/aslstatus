@@ -49,16 +49,16 @@ You may want to set it to `0` if you use aslstatus in
 [dvtm](https://www.brain-dump.org/projects/dvtm/).
 
 * Default: `1`
-* Ddependencies:
+* Dependencies:
   * `libxcb-dev`
 
 #### XKB:
-Adds support for keyboard (needed for `keymap` component).
+Adds support for keyboards (needed for `keymap` component).
 
 Works only if `X=1`.
 
-* default: `1`
-* dependencies:
+* Default: `1`
+* Dependencies:
   * `libxcb-xkb-dev`
 
 #### Audio:
@@ -77,4 +77,4 @@ Selects the audio library.
 For more info about components see [wiki](wiki/COMPONENTS.md) and
 [components_config.h](components_config.h)
 
-See also [main wiki page](wiki/), you can find some useful information here.
+See also [main wiki page](wiki/).
