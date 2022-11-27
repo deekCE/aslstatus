@@ -29,7 +29,7 @@ emerge app-admin/aslstatus::dm9pZCAq
 
 If you wanna pack `aslstatus` for your distro, please do so and submit a pull
 request at [dm9pzCAq's aslstatus](https://notabug.org/dm9pZCAq/aslstatus) to
-it here.
+add it here.
 
 ## Compile
 It succesfully compiles with:
@@ -39,45 +39,45 @@ It succesfully compiles with:
 
 Needs `pkg-config` for `LDLIBS`
 
-You can find out more in [config.mk](config.mk).
+You can find out more in [config.mk](config.mk)
 
 ### make options
 #### X
-Add support for `X` (needed for `dwm` `WM_NAME`)
+Adds support for `X` (needed for `dwm` `WM_NAME`).
 
 You may want to set it to `0` if you use aslstatus in
-[dvtm](https://www.brain-dump.org/projects/dvtm/)
+[dvtm](https://www.brain-dump.org/projects/dvtm/).
 
-* default: `1`
-* dependencies:
+* Default: `1`
+* Ddependencies:
   * `libxcb-dev`
 
 #### XKB
-add support for keyboard (needed for `keymap` component)
+Adds support for keyboard (needed for `keymap` component).
 
-works only if `X=1`
+Works only if `X=1`.
 
 * default: `1`
 * dependencies:
-  + `libxcb-xkb-dev`
+  * `libxcb-xkb-dev`
 
-#### AUDIO
-select audio library
+#### Audio
+Selects the audio library.
 
-* default: `ALSA`
-* possible values:
-  - `ALSA`
-  - `PULSE`
-  - `''` (empty) to use `sys/soundcard.h` or `sys/audioio.h` on OpenBSD
-* dependencies:
-  + `libasound-dev` (if `AUDIO=ALSA`)
-  + `libpulse-dev` (if `AUDIO=PULSE`)
+* Default: `ALSA`
+* Possible values:
+  * `ALSA`
+  * `PULSE`
+  * `''` (empty) to use `sys/soundcard.h` or `sys/audioio.h` on OpenBSD
+* Dependencies:
+  * `libasound-dev` (if `AUDIO=ALSA`)
+  * `libpulse-dev` (if `AUDIO=PULSE`)
 
-
----
-# config
-
-for more info about components see [wiki](wiki/COMPONENTS.md) and [components_config.h](components_config.h)
 
 ---
-see also [main wiki page](wiki/), you can find some useful stuff here
+## Config
+
+For more info about components see [wiki](wiki/COMPONENTS.md) and
+[components_config.h](components_config.h)
+
+See also [main wiki page](wiki/), you can find some useful information here.
