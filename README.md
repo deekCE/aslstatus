@@ -2,11 +2,10 @@
 If you found any issues report it at
 [dm9pzCAq's aslstatus](https://notabug.org/dm9pZCAq/aslstatus).
 
-For all other questions, feel free to ask at Matrix
-[#aslstatus:anontier.nl](https://matrix.to/#/#aslstatus:anontier.nl)
+For all other questions, feel free to ask at
+[#aslstatus:anontier.nl](https://matrix.to/#/#aslstatus:anontier.nl).
 
 ## Demo
-
 <details><summary>bspwm & lemonbar</summary>
 ![bspwm demo](https://i.ibb.co/3SRSkTP/lemonbar-with-aslstatus.gif)
 </details>
@@ -19,9 +18,9 @@ For all other questions, feel free to ask at Matrix
 [![dvtm asciicast](https://asciinema.org/a/437217.svg)](https://asciinema.org/a/437217)
 </details>
 
-# Installation
-### Gentoo
-Avaliable at [dm9pZCAq's overlay](https://notabug.org/dm9pZCAq/dm9pZCAq-overlay):
+## Installation
+#### Gentoo
+Available at [dm9pZCAq's overlay](https://notabug.org/dm9pZCAq/dm9pZCAq-overlay):
 ```sh
 eselect repository enable dm9pZCAq
 emerge --sync dm9pZCAq
@@ -29,10 +28,10 @@ emerge app-admin/aslstatus::dm9pZCAq
 ```
 
 If you wanna pack `aslstatus` for your distro, please do so and submit PR to
-add it here
+add it at
+[dm9pzCAq's aslstatus](https://notabug.org/dm9pZCAq/aslstatus).
 
-# Compile
-
+## Compile
 It succesfully compiles with:
 * `clang`
 * `tcc`
@@ -40,17 +39,18 @@ It succesfully compiles with:
 
 Needs `pkg-config` for `LDLIBS`
 
-You can find out more in [config.mk](config.mk)
+You can find out more in [config.mk](config.mk).
 
-## make options
+### make options
 #### X
-add support for `X` (needed for `dwm` `WM_NAME`)
+Add support for `X` (needed for `dwm` `WM_NAME`)
 
-you may want to set it to `0` if you use aslstatus in [dvtm](https://www.brain-dump.org/projects/dvtm/)
+You may want to set it to `0` if you use aslstatus in
+[dvtm](https://www.brain-dump.org/projects/dvtm/)
 
 * default: `1`
 * dependencies:
-  + `libxcb-dev`
+  * `libxcb-dev`
 
 #### XKB
 add support for keyboard (needed for `keymap` component)
