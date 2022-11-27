@@ -2,8 +2,8 @@
 If you found any issues report it at
 [dm9pzCAq's aslstatus](https://notabug.org/dm9pZCAq/aslstatus).
 
-For all other questions, feel free to ask at
-[#aslstatus:anontier.nl](https://matrix.to/#/#aslstatus:anontier.nl).
+For any other question, feel free to ask at
+[#aslstatus:anontier.nl](https://matrix.to/#/#aslstatus:anontier.nl)
 
 ## Demo
 <details><summary>bspwm & lemonbar</summary>
@@ -19,7 +19,7 @@ For all other questions, feel free to ask at
 </details>
 
 ## Installation
-#### Gentoo
+### Gentoo
 Available at [dm9pZCAq's overlay](https://notabug.org/dm9pZCAq/dm9pZCAq-overlay):
 ```sh
 eselect repository enable dm9pZCAq
@@ -27,9 +27,9 @@ emerge --sync dm9pZCAq
 emerge app-admin/aslstatus::dm9pZCAq
 ```
 
-If you wanna pack `aslstatus` for your distro, please do so and submit PR to
-add it at
-[dm9pzCAq's aslstatus](https://notabug.org/dm9pZCAq/aslstatus).
+If you wanna pack `aslstatus` for your distro, please do so and submit a pull
+request at [dm9pzCAq's aslstatus](https://notabug.org/dm9pZCAq/aslstatus) to
+it here.
 
 ## Compile
 It succesfully compiles with:
