@@ -61,7 +61,7 @@ Works only if `X=1`.
 * Dependencies:
   * `libxcb-xkb-dev`
 
-#### Audio:
+#### AUDIO:
 Selects the audio library.
 
 * Default: `ALSA`
@@ -74,7 +74,7 @@ Selects the audio library.
   * `libpulse-dev` (if `AUDIO=PULSE`)
 
 ## Config
-For more info about components see [wiki](wiki/COMPONENTS.md) and
+For more info about components see the [Wiki](wiki/COMPONENTS.md) or
 [components_config.h](components_config.h)
 
-See also [main wiki page](wiki/).
+See also [main Wiki page](wiki/).
