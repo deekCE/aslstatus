@@ -33,9 +33,8 @@ static struct arg_t args[] = {
 /* { bspwm_ws,		" [ %s ]%%{r}",	NULL,		0,	END }, */
 #endif
 { run_command,     "%s",        "abatch",                  66,        END },
+{ run_command,     "%s",        "avolch",                  66,        END },
 { run_command,     "%s",        "printf ' '",              ONCE,      END },    /* single spacer */
-{ run_command,     "󰕾 %s%%",    "pamixer --get-volume",    66,        END },
-{ run_command,     "%s",        "printf '  '",             ONCE,      END },    /* double spacer */
 { wifi_perc,       "󰖩 %s%%",	IFC,                       3 _SEC,    END },
 { run_command,     "%s",        "printf '  '",             ONCE,      END },    /* double spacer */
 { datetime,        "%s",        "%a., %b. %d, %Y, %T",     333,       END },
